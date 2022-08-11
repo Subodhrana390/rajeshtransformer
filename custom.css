@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+header .head1{
+    height:40px;
+    width: 100%;
+    background:rgb(0, 146, 134);
+    display: flex;
+    justify-content: space-between;
+    margin-left:px ;
+    margin-right:px;   
+}
+header .head1 .email p {
+    margin-top: 10px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+header .head1 .email i{
+    padding-right:8px ;
+}
+header .head1 .social-icons{
+    margin-top: 10px;
+    color:#fff ;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+header .head1 .social-icons i {
+    color: #000;
+    padding-right: 10px;
+}
+header .head1 .social-icons .fa{
+    padding: 10px;
+    border: 2px;
+    border-radius: 50%;
+}
+
+header .head2{
+    height: 80px;
+    width:100%;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    background:url(./abouts_1.PNG);
+    padding-right: 80px;
+}
+
+header .head2 .logo {
+    display: flex;
+}
+header .head2 .logo img{
+    margin-left: 100px;
+    width: 80px;
+}
+
+header .head2 .logo h9{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+header .head2 .logo p{
+    margin-top: 45px;
+    margin-left: -150px;
+    font-size:10px ;
+}
+
+header .head2 .Main-menu{
+    display: flex;
+}
+header .head2 .Main-menu ul li{
+    margin-top: 10px;
+    padding: 15px;
+    list-style: none;
+
+}
+header .head2 .Main-menu ul li a{
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+header .head2 .Main-menu ul li a.active{
+    color: red;
+}
+header .head2 .Main-menu button{
+    margin-top: 20px;
+    height: 40px;
+    border: white;
+    background: #088178;
+}
+header .head2 .Main-menu button {
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header .head2 .Main-menu button a{
+    text-decoration: none;
+}
+
+header .head2 .Main-menu button span{
+    text-transform: uppercase;
+    color: #f1f1f1;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+header .head2 .Main-menu button:hover{
+    transform:scale(1.3);
+
+}
+
+header .head2 .Main-menu ul li a:hover{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #088178;
+    }
+
+    .new{
+        padding: 10px 60px;
+        margin-bottom: 30px;
+    }
+    
+    
+    footer .col{
+        width: 400px;
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 20px;
+    }
+    
+    footer .logo{
+        margin-bottom:10px ;
+        width: 80px;
+    }
+    
+    footer h4{
+        font-size: 23px;
+        padding-bottom: 10px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    
+    footer p{
+        font-size: 13px;
+        margin: 0 0 8px 0;
+        color: #fff;
+    }
+
+    footer i{
+        padding-right: 8px;
+    }
+    
+    footer a{
+        font-size: 13px;
+        text-decoration: none;
+        color:#fff;
+    }
+
+    footer a:hover{
+        color: #0d0744;
+    }
+    
+    footer .follow{
+        margin-top: 20px;
+    }
+    
+    footer .follow i{
+        color:#465b52;
+        padding-right: 4px;
+        cursor: pointer;
+    }
+    
+    
+    
+    footer .follow i:hover,footer a:hover{
+        color: #0d0744;
+    }
+    
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .copyright p{
+        margin: -60px 0 0 0;   
+    color: white; }
+
+
+    .Product-container-box{
+        background: url(./Service-BG.PNG);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .product-container{
+        display: flex;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        background: url(./bg-25.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .nav{
+        display:grid;
+        width:100%;
+        height: 100%;
+    }
+
+    .index,.PDF-Link, .Get-in-Touch{
+        margin: 0 50px 50px 50px;
+    }
+
+
+    .nav .index a, .PDF-Link a{
+        width: 300px;
+        display: grid ;
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px #fff;  
+        transition:  .5s ease;
+    }
+
+    .nav .index a:hover{
+        background-color: red;
+        color: #fff;
+    }
+
+    .PDF-Link h1{
+        font-size: 30px;
+    }
+
+
+    .PDF-Link a:hover{
+        border-left: 7px solid red;
+        background-color: #140849;
+        color: #fff;
+    }
+
+    .PDF-Link, .Get-in-Touch{
+        margin-top: 0;
+    }
+
+    .Get-in-Touch{
+        width: 300px;
+        box-shadow: 2px 2px 2px 2px #f2f2f2;
+    }
+    .Get-in-Touch h1{
+        font-family:'Times New Roman', Times, serif; 
+        font-family:;
+        font-weight: 700;
+    }
+
+    .Get-in-Touch h2{
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+    }
+
+    .Get-in-Touch i{
+        color :red;
+        padding-right: 10px;
+    }
+
+    .product-description {
+        text-align:justify;
+        margin-right: 120px;
+    }
+    .product-description h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .product-description p{
+        font-family: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .product-description p span{
+        font-weight: 900;
+        color: #000;
+    }
+
+    .product-description h3{
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .product-image {
+        display: flex;
+        flex-basis: 50%;
+    }
+    .product-image img{
+        width: 400px;
+        padding-right:10px ;
+    }
+    #product-specification {
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #product-specification td {
+        width: 170px;
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #product-specification tr:nth-child(odd){ 
+        font-weight:700 ;
+    }
+    #product-specification tr:nth-child(even){
+        font-weight: 700;
+    }
+
+    #product-specification tr:hover {background-color: #ddd;}
+
+    .product-image-Motor img,.product-image-APFC img { 
+        width: 100%;
+    }
+
+    .product-image-cast{
+        display: flex;
+    }
+    .product-image-cast img{
+        width: 50%;
+        padding-right: 10px;
+    }
+    .product-description .repair-Type {
+        font-weight: bold;
+    }
+    .product-description ul li span{
+        font-weight: bold;
+    }
+    
+    .product-description h2{
+        font-size: 20px;
+        font-weight:700; 
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+    }
+
+    .product-description .special-feature {
+        list-style:url(./tick.png);
+        float: center;
+    }
+    .Product-container-box img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #Cover{
+        width: 100%;
+        height: 300px;
+        display: grid;
+    }
+.Cover-background{
+    width: 100%;
+    height: 300px;
+}
+
+.Cover-background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.content{
+    display: contents;
+    padding: 10px;
+}
+.content h1{
+    margin: -120px 0 0 110px;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #fff;
+}
+.content p{
+    margin: -100px 0 0 110px;
+    padding: 20px;
+    line-height: 10px;
+}
+
+.content p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff ;
+    font-weight: 700;
+}
+.content p i, span{
+    font-size: 20px;
+    color:#fff;
+}
