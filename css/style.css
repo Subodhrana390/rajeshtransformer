@@ -484,7 +484,7 @@ footer{
     flex-basis: 50%;
 }
 
-.gallery{
+.row-img{
     display: inline;
 }
 .gallery .main-img img{

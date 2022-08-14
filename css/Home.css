@@ -1,0 +1,819 @@
+    /* Google Font CDN */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+
+    .top-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px;
+        margin: 0 auto;
+        background:#568335;
+    }
+
+    .top-bar .email i{
+        margin-right: 10px;
+    }
+    .top-bar .social-icons i{
+        padding-right: 20px ;
+    }
+    .container{
+        padding: 0 10%;
+    }
+
+    .container{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgb(0, 146, 134);
+    }
+
+    .logo-content{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .logo-title{
+        color: #000;
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+
+    .logo-description{
+        color: #000;
+        font-size: 0.7em;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+
+    .navigation-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #click{
+        display: none;
+    }
+
+    .navbar .menu-btn i {
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .navbar .nav-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-items li{
+        list-style: none;
+    }
+    .nav-items li:not(last-child){
+        margin-right: 30px;
+    }
+
+    .nav-items li a{
+        font-size: 1em;
+        font-weight: 600;
+        color: #121b12;
+        padding: 20px;
+        transition: 0.5s all;
+    }
+
+    .nav-items li a:hover{
+        color: #ff004f;
+    }
+
+    .Quote-btn{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: -10px;
+        padding: 10px;
+        align-items: center;
+        background: #568335;
+        border-radius: 20px;
+        transition: 0.5s ease;
+    }
+
+    .Quote-btn:hover{
+        transform: scale(1.1);
+    }
+
+    /* About Section */
+
+    .about-container{
+        width: 100%;
+        height:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-info{
+        max-width: 550px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-container .about-info h1{
+        font-size: 3.5em;
+        font-weight: 700;
+        padding: 10px 0;
+        line-height: 70px;
+        color: #568335;
+    }
+
+    .about-info h2{
+        font-size: 2em;
+        font-weight: 400;
+        color: #568335;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-info p{
+        font-size: 1em;
+        font-weight: 400;
+        text-align: justify;
+
+    }
+
+    .product-slide {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .product-slide img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*  Feature Section */
+
+    .feature-info{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .feature-info .col{
+        width: 100%;
+        background-color:rgb(74, 74, 131);
+        text-align: center;
+        border-right: 5px solid #fff;
+        padding: 0 20px 0;
+    }
+    .col h3, .col p {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .col i{
+        color: #fff;
+        margin-top: 5px;
+        font-size: 2em;
+    }
+
+
+    /* Product Section */
+
+    .product-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 40px;
+        padding: 20px 10%;
+    }
+
+    .product-text{
+        width: 100%;
+        font-size: 3em;
+        font-weight: 700;
+        padding: 20px;
+        text-align: center;
+        color: #568335;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    .product-card{
+        width: 310px;
+        height: 350px;
+        border: 2px solid #f2f2f2;
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+    .product-image{
+        width:305px;
+        height: 200px;
+        cursor: pointer;
+    }
+
+    .product-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-content h1{
+        text-align: center;
+    }
+
+    .product-content p{
+        font-size: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .product-content .btn{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 1em;
+        font-weight: 700;
+        background: #568335;
+        padding: 5px;
+        border-radius: 6px;
+        margin: 0px 90px;
+        transition: transform 0.5s;
+    }
+
+    .btn:hover{
+        background-color: #023483;
+    }
+
+    .product-card:hover{
+        transform: translateY(-10px);
+    }
+
+    /* Why-choose-Us */
+
+    .Why-Choose-Us{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 48%;
+    }
+
+    .whyus-gallery{
+        display: inline;
+    }
+    .row-img img{
+        width: 820px;
+    }
+    
+    .column-img {
+        margin-top: -10px;
+        display: flex;
+    }
+    .column-img img{
+        width: 33.33%;
+    }
+
+    .why-choose-us-info{
+        background: rgb(40, 38, 78);
+        padding: 50px;
+    }
+    
+    .why-choose-us-info .why-us-text h1{
+        border-left: 8px solid;
+        border-color: red;
+        font-size: 13px;
+        color: #fff;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    
+    .why-choose-us-info h2{
+        border-left: 8px solid;
+        border-color: red;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #fff;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .why-choose-us-info p{
+        color: #fff;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+    .line{
+        width: 80%;
+        margin: 10px 0;
+    }
+    
+    
+    .why-choose-us-info .why-point-info {
+        display: block;
+    }
+     
+    .why-choose-us-info .why-point-info h1{
+        font-size: 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .why-choose-us-info .why-point-info p{
+        padding-left: 50px;
+    
+    }
+    .why-choose-us-info .why-point-info div i{
+        font-size: 30px;
+        color: red;
+        padding-right: 20px;  
+    }
+
+    /* Quality */
+    .quality{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        padding: 30px;
+        background:url(./bg-27.png);
+    }
+    
+    .quality p{
+        color: #115780;
+    }
+    .quality ul{
+        color:#215b7c;
+    }
+    .quality i{
+        color: #ff004f;
+    }
+
+    /* Footer */
+    footer{
+        background-color: #008178;
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        padding: 20px 10%;
+    }
+
+    .About-info-footer .footer-logo{
+        width:90px;
+    }
+    .About-info-footer p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .social-icon i {
+        font-size: 22px; 
+        padding-right: 20px;
+    }
+    .Office-address h4{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;   
+    }
+
+    .Quicks-product h4{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .Office-address p{
+        font-size: 15px;
+    }
+
+    .Office-address p i{
+        padding-right: 20px;
+    }
+
+    .Quicks-product ul{
+        text-align: center;
+    }
+    .Quicks-product ul li{
+        list-style: none;
+    }
+    .Quicks-product ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .Quicks-product ul li a:hover{
+        color: #ff004f;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    /*------------------------ About Us Section ----------*/
+    .about-us{
+        padding: 10px 10%;
+    }
+
+    .about-main-image{
+        max-width:100%;
+    }
+
+    .about-main-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }   
+
+    .about-us .about-us-info h1 {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 21px;
+        margin-top: 25px;
+    }
+    .product-content h1 i{
+        margin-right: 10px;
+    }
+    .About-us-section{
+        width:100%;
+        height:auto;
+    }
+
+    .About-us-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 10px;
+        padding: 10px 10%;
+    }
+
+    /* Services */
+    
+    /* Media Queries */
+
+    @media only screen and (max-width: 450px) {
+
+        .top-bar{
+            display: flex;
+            gap: 10px;
+            margin: 0;
+            padding: 10px 10px;
+        }
+        .top-bar .email p{
+            font-size: 10px;
+        }
+
+        .top-bar .social-icons{
+            margin-top: -10px;
+            width: 20%;
+            display: inline-flex;
+        }
+
+        .top-bar .social-icons i{
+            font-size: 10px;
+            padding-right: 8px;
+        }
+
+        .container{
+            height: 50px;
+        }
+    
+        .logo-content{
+            margin-top: 10px;
+            margin-left: 0;
+
+        }
+
+        .logo-content .logo{
+            margin-top: 10px;
+        }
+        .logo-content .logo img{
+            width: 40px;
+        }
+
+        .logo-text{
+            margin-top:5px;
+            width: 200px;
+        }   
+
+        .logo-title {
+            font-size: 0.9em;
+            font-weight: 700;
+        }
+
+        .logo-description {
+            font-size: .5em;
+        }
+
+        #click:checked ~ .menu-btn i::before{
+            content: "\f00d";
+        }
+        .navbar .menu-btn i{
+            color: #000;
+            display: block;
+            font-size: 15px;
+        }
+
+        .navbar .nav-items{
+            position: absolute;
+            top: 68px;
+            left: -100%;      
+            width: 100%;
+            height: 100vh;
+            display: block;
+            background: #fff; 
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        #click:checked ~ .nav-items, #click:checked ~  .nav-items li {
+            left: 0%;
+        }
+        .nav-items li{
+            padding: 10px ;
+        }
+
+         .navbar .nav-items li a{
+            color: #121b12;
+            display: block;
+            transition: 0.5s ease;
+        }
+
+        .nav-items li a{
+            font-size: 1em;
+            font-weight: 600;
+            color: #121b12;
+            padding: 20px;
+            transition: 0.5s ease;
+        }
+    
+        .nav-items li a:hover{
+            color: #ff004f;
+        }
+
+
+        .Quote-btn{
+            display: none;
+        }
+        
+        .about-container{
+            flex-direction: column;
+        }
+        .about-info{
+            padding: 5px 10px;
+        }
+        .about-container .about-info h1{
+            font-size: 2.5em;
+            line-height: 40px;
+        }
+        .about-us .about-us-info h1 {
+            font-size: 18px;
+        }
+        .about-info h2{
+            font-size: 1.5em;
+        }
+        .about-info p{
+            text-align: justify;
+        }
+
+        .about-container .product-slide {
+            height: 400px;
+            max-width: 350px;
+            margin: auto;
+        }
+
+        .col h3, .col p {
+            font-size: 10px;
+        }
+        .product-text{
+            font-size: 1.8em;
+            padding:20px 10px 10px;
+            letter-spacing: 2px;
+        }
+        .product-card{
+            display: flex;
+            flex-direction: column;
+            padding: auto;
+            margin:  0 auto;
+        }
+        
+        /* Why Us Section */
+        .Why-Choose-Us {
+            box-sizing: border-box;
+            display: grid;
+            width: 100%;
+        }
+
+        .whyus-gallery{
+            min-width: 70%;
+        }
+
+        .row-img{
+            display: flex;
+        }
+
+        .whyus-gallery .row-img img{
+            min-width: 50%;
+        }
+        
+        .why-choose-us-info .why-point-info:last-child h1{
+            font-size: 1em;
+        }
+        .why-choose-us-info .why-point-info p{
+            font-size: .8em;
+        }
+        /* Quality */
+
+        .quality{
+            height: 700px;
+        }
+        /* Footer Section */
+
+        .footer-container{
+            display:block;
+        }
+
+        .About-info-footer .footer-logo {
+            width: 100px;
+            margin: 0 auto;
+        }
+        .About-info-footer, .Office-address, .Quicks-product{
+            padding: 20px;
+        }
+
+    /* About-Us */
+    .about-us-info h1 {
+        font-size: 14px;
+        font-weight: 900;
+        margin-bottom: 21px;
+        margin-top: 25px;
+    }
+
+    /* Services */
+
+
+    .product-menu-container {
+        display: grid;
+        height: 100%;
+    }
+    .product-description {
+        text-align: left;
+        margin-right: 0;
+    }
+    .Product-list, .PDF-Link, .Get-in-Touch {
+        margin: 0 10px 50px 10px;
+    }
+}
+
+
+
+
+
+    @media only screen and (max-width:800px){
+        
+        .logo img {
+            margin-top: -10px;
+            width: 50px;
+        }
+        .row-img{
+            max-width: 800px;
+        }
+        .row-img img {
+            max-width: 800px;
+        }
+
+        .logo-title{
+            margin-top: 0;
+        }
+        .logo-content {
+            margin-top: 5px;
+            margin-left: 0px;
+        }
+
+        .logo-content .logo-title{
+            margin-top: -5px;
+            font-size: 1em;
+        }
+        .logo-content .logo-description{
+            font-size: 0.6em;
+        }
+
+        .nav-items li a{
+            padding: 0;
+        }
+
+        .nav-items li a {
+            font-size: 1em;
+            font-weight: 600;
+            color: #121b12;
+            padding: 5px;
+            transition: 0.5s all;
+        }
+
+        .nav-items li:not(last-child) {
+            margin-right: 24px;
+        }
+
+        .about-info {
+            max-width: 400px;
+            padding: 10px;
+        }
+        .about-container .product-slide {
+            width: 580px;
+            height: auto;
+        }
+        .product-container{
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            gap: 10px;
+            padding: 20px 8%;
+        }
+        
+        .Why-Choose-Us {
+            box-sizing: border-box;
+            display: grid;
+            width:100%;
+        }
+
+        whyus-gallery .row-img img {
+            max-width: 810px;
+        }
+
+
+        .About-info-footer .footer-logo {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+        }
+        .Office-address p {
+            font-size: 13px;
+        }
+
+        .Office-address p i{
+            padding-right: 10px;
+        }
+    }
+
+
+@media only screen  and (max-width:1350px)
+{
+    .logo-content {
+        margin-left: -20px;
+    }
+    .nav-items li:not(last-child) {
+        margin-right: 0px;
+    }
+
+    .Why-Choose-Us {
+        box-sizing: border-box;
+        display: grid;
+    }
+
+    .row-img img {
+        width: 100%;
+    }
+    .about-container .product-slide {
+        width: 353px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .why-choose-us-info {
+        padding:  0 35px;
+    }
+    
+}
+
+
+
