@@ -14,11 +14,13 @@
         height: 100vh;
     }
 
-    a{
+    /* a{
         text-decoration: none;
         font-size: 1.2em;
         font-weight: 500;
     }
+
+    */
 
 
     .top-bar{
@@ -106,6 +108,7 @@
     }
 
     .nav-items li a{
+        text-decoration: none;
         font-size: 1em;
         font-weight: 600;
         color: #121b12;
@@ -118,6 +121,7 @@
     }
 
     .Quote-btn{
+        text-decoration: none;
         color: #fff;
         font-size: 1em;
         font-weight: 700;
@@ -135,6 +139,9 @@
     }
 
     /* About Section */
+    .about-section{
+        background-image: url(../assset/img/bg-27.png);
+    }
 
     .about-container{
         width: 100%;
@@ -144,7 +151,7 @@
     }
 
     .about-info{
-        max-width: 550px;
+        max-width: 750px;
         padding: 10px;
         margin-left: auto;
         margin-right: auto;
@@ -213,6 +220,11 @@
 
     /* Product Section */
 
+    .Product-section{
+        background-image: url(../assset/img/bg.png);
+        background-size: cover;
+    }
+
     .product-container{
         width: 100%;
         display: grid;
@@ -231,10 +243,12 @@
         font-family: 'Oleo Script Swash Caps', cursive;
     }
     .product-card{
+        position: relative;
         width: 310px;
         height: 350px;
         border: 2px solid #f2f2f2;
         border-radius: 10px;
+        box-sizing: ;
         transition: 0.5s ease;
     }
 
@@ -247,6 +261,7 @@
     .product-image img{
         width: 100%;
         height: 100%;
+	padding:10px;
         object-fit: cover;
     }
 
@@ -263,6 +278,7 @@
     }
 
     .product-content .btn{
+        text-decoration: none;
         color: #fff;
         margin-top: 10px;
         font-size: 1em;
@@ -283,12 +299,11 @@
     }
 
     /* Why-choose-Us */
-
     .Why-Choose-Us{
     box-sizing: border-box;
     display: flex;
     flex-basis: 48%;
-    }
+}
 
     .whyus-gallery{
         display: inline;
@@ -384,8 +399,8 @@
     .footer-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
-        padding: 20px 10%;
+        gap: 5px;
+        padding: 10px 10%;
     }
 
     .About-info-footer .footer-logo{
@@ -397,8 +412,7 @@
     }
 
     .social-icon i {
-        font-size: 22px; 
-        padding-right: 20px;
+        font-size: 22px;
     }
     .Office-address h4{
         font-family: 'Times New Roman', Times, serif;
@@ -457,7 +471,7 @@
         object-fit: cover;
     }   
 
-    .about-us .about-us-info h1 {
+    .about-us-info h1 {
         font-size: 50px;
         font-weight: 900;
         margin-bottom: 21px;
@@ -480,7 +494,171 @@
     }
 
     /* Services */
-    
+
+    .services-cover-image img{
+        width: 100%;
+    }
+    .services-section{
+        width: 100%;
+        display:flex;
+    }
+
+    .service-menu-contaier{
+        box-sizing: border-box;
+        width: 25%;
+        height: auto;
+    }
+
+    .product-navigation,.PDF-section ,.Get-in-Touch-section{
+        padding: 20px;
+    }
+
+    .product-nav-items li{
+        list-style: none;
+    }
+
+    .product-nav-items a, .PDF-section a{
+        width: 300px;
+        display: grid ;
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px #f2f2f2;  
+        transition:  .5s ease;
+    } 
+
+    .product-nav-items a:hover{
+        background-color: red;
+        color: #fff;
+    }
+
+    .PDF-section h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .PDF-section a:hover{
+        border-left: 7px solid red;
+        background-color: #140849;
+        color: #fff;
+    }
+
+    .Get-in-Touch-section h1{
+            font-family:'Times New Roman', Times, serif; 
+            font-weight: 700;
+            padding: 5px;
+    }
+
+    .Get-in-Touch-section{
+        width: 300px;
+        margin: 20px;
+        box-shadow: 2px 2px 2px 2px #f2f2f2;  
+        border: 2px solid #f2f2f2;
+    }
+
+    .Get-in-Touch-section h1{
+        font-size: 25px;
+    }
+  
+    .Get-in-Touch-section p{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .Get-in-Touch-section p i{
+        margin-right: 10px;
+    }
+
+    .Product-infomation{
+        width: 75%;
+        box-sizing: border-box;
+        padding: 0 50px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .Product-infomation h3{
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .Product-infomation p{
+        font-family: 'Times New Roman', Times, serif;
+        font-family: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align:justify;
+        padding-bottom: 10px;
+    }
+
+    .repair-services-text{
+        margin-bottom: 10px;
+    }
+
+    .product-information-text{
+        font-weight: 1000;
+        text-decoration: underline;
+    }
+
+    .Product-infomation p span{
+        font-weight: 800;
+    }
+
+    /* Product Sub-description */
+
+    .product-information-section h1{
+        font-size: 30px;
+        font-weight:1000;
+        margin-bottom: 10px;
+    }
+
+    .product-information-section p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .product-information-section .product-image {
+        display: inline-flex;
+        width: 100%;
+    }
+    .product-image img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        padding-right:10px ;
+    }
+
+    #product-specification {
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #product-specification td {
+        width: 170px;
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #product-specification tr:nth-child(odd){ 
+        font-weight:700 ;
+    }
+    #product-specification tr:nth-child(even){
+        font-weight: 700;
+    }
+
+    .product-image-Motor img,.product-image-APFC img { 
+        width: 100%;
+    }
+
+
     /* Media Queries */
 
     @media only screen and (max-width: 450px) {
@@ -511,7 +689,7 @@
         }
     
         .logo-content{
-            margin-top: 10px;
+            margin-top: 5px;
             margin-left: 0;
 
         }
@@ -524,7 +702,7 @@
         }
 
         .logo-text{
-            margin-top:5px;
+            margin-top:0px;
             width: 200px;
         }   
 
@@ -548,7 +726,7 @@
 
         .navbar .nav-items{
             position: absolute;
-            top: 68px;
+            top: 90px;
             left: -100%;      
             width: 100%;
             height: 100vh;
@@ -628,6 +806,11 @@
             padding: auto;
             margin:  0 auto;
         }
+
+        /* Features section */
+        .nav-items li:not(last-child) {
+            margin-right: 24px;
+        }
         
         /* Why Us Section */
         .Why-Choose-Us {
@@ -674,34 +857,60 @@
         }
 
     /* About-Us */
-    .about-us-info h1 {
+    .about-us .about-us-info h1 {
         font-size: 14px;
         font-weight: 900;
         margin-bottom: 21px;
         margin-top: 25px;
     }
 
+    .about-us .about-us-info p{
+        font-size: 12px;
+        font-weight: 600;
+        text-align:justify;
+    }
+
+
     /* Services */
 
-
-    .product-menu-container {
-        display: grid;
-        height: 100%;
+    .services-section {
+        display: block;
     }
-    .product-description {
-        text-align: left;
-        margin-right: 0;
+
+    .service-menu-contaier{
+        width:100%;
     }
-    .Product-list, .PDF-Link, .Get-in-Touch {
-        margin: 0 10px 50px 10px;
+
+    .Product-infomation{
+        width:100%;
     }
-}
+    .product-nav-items a, .PDF-section a {
+        width: 300px;
+    }
+    .product-information-section h1 {
+        font-size: 15px;
+    }
+
+    .product-navigation , .PDF-section, .Get-in-Touch-section {
+        padding: 20px 50px;
+    }
+    .Get-in-Touch-section{
+        margin:  0 50px;
+    }
+
+    .Product-infomation h3{
+        font-size: 20px;
+    }
+
+    /* Product Sub-Description */
+    .product-information-section .product-image {
+        display: block;
+        margin-bottom: 220px;
+    }
+    }
 
 
-
-
-
-    @media only screen and (max-width:800px){
+    @media only screen and (min-width:500px) and (max-width:800px){
         
         .logo img {
             margin-top: -10px;
@@ -723,7 +932,7 @@
         }
 
         .logo-content .logo-title{
-            margin-top: -5px;
+            margin-top: 0px;
             font-size: 1em;
         }
         .logo-content .logo-description{
@@ -735,16 +944,18 @@
         }
 
         .nav-items li a {
-            font-size: 1em;
+            font-size: 0.7em;
             font-weight: 600;
             color: #121b12;
-            padding: 5px;
+            padding:0;
             transition: 0.5s all;
         }
 
         .nav-items li:not(last-child) {
             margin-right: 24px;
         }
+
+        
 
         .about-info {
             max-width: 400px;
@@ -754,6 +965,14 @@
             width: 580px;
             height: auto;
         }
+
+        .about-container .about-info h1 {
+            font-size: 2.8em;
+        }
+        .about-container .about-info h2 {
+            font-size: 1.5em;
+        }
+
         .product-container{
             grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
             gap: 10px;
@@ -766,7 +985,7 @@
             width:100%;
         }
 
-        whyus-gallery .row-img img {
+        .whyus-gallery .row-img img {
             max-width: 810px;
         }
 
@@ -783,16 +1002,53 @@
         .Office-address p i{
             padding-right: 10px;
         }
+
+    /* services */
+
+    .product-nav-items a, .PDF-section a {
+        width: 200px;
+        font-size: 12px;
     }
 
+    .Get-in-Touch-section {
+        width: 200px;
+    }
 
-@media only screen  and (max-width:1350px)
+    .Get-in-Touch-section p{
+        font-size: 9px;
+    }
+    .product-information-section .product-image {
+        display: inline-flex;
+        width: 100%;
+        flex-basis: 40%;
+    }
+    .product-image img {
+        width: 53%;
+    }
+
+}
+
+
+
+
+@media only screen  and (max-width:1350px) and (min-width:800px)
 {
     .logo-content {
         margin-left: -20px;
     }
+
+    .logo-title {
+        font-size: 1em;
+         margin-top: 25px;
+    }
+
     .nav-items li:not(last-child) {
         margin-right: 0px;
+    }
+
+    .nav-items li a {
+        font-size: 1em; 
+        padding: 10px;  
     }
 
     .Why-Choose-Us {
@@ -803,16 +1059,41 @@
     .row-img img {
         width: 100%;
     }
+
+    .about-container{
+        padding: 20px;
+    }
+
+    .about-info {
+        max-width: 750px;
+    }
     .about-container .product-slide {
         width: 353px;
         height: auto;
         padding: 20px;
+        margin: auto
     }
 
     .why-choose-us-info {
-        padding:  0 35px;
+        padding:  10px 35px;
     }
     
+    .product-nav-items a, .PDF-section a {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .product-information-section{
+        height: auto;
+    }
+
+    .Get-in-Touch-section {
+        width: 200px;
+    }
+
+    .Get-in-Touch-section p{
+        font-size: 9px;
+    }
 }
 
 
